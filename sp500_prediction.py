@@ -13,7 +13,7 @@ def reg_coef():
     ols_var=['fedbs','fedfundsrate','home_median','us10y','gdp_real','debt_gdp','govexp_gdp']
     params_ols=[]
     for i in ols_var:
-        params_ols.append(sm.OLS(df.spx_idx, sm.add_constant(df[i])).fit().params[1])
+        params_ols.append(sm.OLS(df['spx_idx'], sm.add_constant(df[i])).fit().params[1])
     return params_ols
 
     
