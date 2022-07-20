@@ -2,7 +2,7 @@ from email.policy import default
 import streamlit as st
 import numpy as np
 import pandas as pd
-import statsmodels as sm
+import statsmodels.api as sm
 
 parameters = {'axes.labelsize': 10,
           'axes.titlesize': 10}
