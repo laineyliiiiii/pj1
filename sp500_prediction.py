@@ -140,37 +140,6 @@ def main():
         st.latex('较年初下降:')
         st.latex("\\textbf{%1.2f}" % (-1*prediction))
         
-
-            
-
-
-    # expected_yrs = st.number_input("1.2 Expected Working Years", min_value=0, max_value=100, value=20, step=1)
-    # Annual_Investment_Rate = st.slider("1.3 Please choose your annual investment rate", min_value=0.0000, max_value=1.0000,
-    #                                    value=0.0913, step=0.0001)
-
-    # start_salary = st.number_input("1.4 Start Salary", min_value=0, max_value=None, value=85000, step=1000)
-    # start_balance = st.number_input("1.5Start Balance", min_value=0, max_value=None, value=50000, step=1000)
-    # st.subheader("2. Parameter Settings")
-    # expected_portfolio = st.number_input("2.1 Expected ending portfolio is ", min_value=0, max_value=None, value=1000000,
-    #                                      step=1000)
-
-    # global portfolio_distribution
-    # portfolio_distribution = st.selectbox("2.2Please specify your portfolio distribution type",
-    #                                       ["Normal Distribution"])
-
-    # # set iterations
-    # n = expected_yrs * st.slider("2.3 Please choose iteration times (Default is 10000)", 0, 100000, 10000, step=10000)
-    # li_time = int(n / expected_yrs)
-    # st.write('Your iteration time is ', li_time)
-
-    # generate_salary_growth_rate()
-    # generate_portfolio_rate()
-    # st.subheader("3. Caculation")
-    # model()
-    # #@Kuangqi Chen
-
-
-
 if __name__ == "__main__":
     main()
 
