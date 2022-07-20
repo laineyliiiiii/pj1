@@ -2,7 +2,7 @@ from email.policy import default
 import streamlit as st
 import numpy as np
 import pandas as pd
-import statsmodels.api as sm
+import statsmodels as sm
 import warnings
 warnings.filterwarnings('ignore')
 
