@@ -3,11 +3,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import statsmodels as sm
-import warnings
-warnings.filterwarnings('ignore')
 
-parameters = {'axes.labelsize': 8,
-          'axes.titlesize': 8}
+parameters = {'axes.labelsize': 10,
+          'axes.titlesize': 10}
 
 def reg_coef():
     url="https://raw.githubusercontent.com/laineyliiiiii/pj1/main/data_q.csv"
@@ -28,7 +26,7 @@ def main():
 
     st.title(" S&P 500 股市预测 ")
 
-    st.caption('本网页基于OLS模型对股市进行预测，请在下方选择各项变量在2022年底时的估计值，并查看对股市可能造成的影响。', unsafe_allow_html=False)
+    st.caption('本网页基于OLS模型对股市进行预测，请在下方选择各项变量在2022年底时的估计值，并查看对股市可能造成的影响。')
 
     # variable selection
     delta=[]
