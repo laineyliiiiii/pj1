@@ -1,5 +1,4 @@
 from email.policy import default
-from tkinter import Checkbutton
 import streamlit as st
 import numpy as np
 import pandas as pd
